@@ -82,23 +82,7 @@ const Landing = () => {
 
                             </div>
 
-                            <div className="flex items-center gap-6 pt-6 animate-in fade-in slide-in-from-bottom-12 duration-700 delay-400">
-                                <div className="flex -space-x-4">
-                                    {[1, 2, 3, 4].map(i => (
-                                        <div key={i} className="h-12 w-12 rounded-full border-4 border-[#09090b] overflow-hidden bg-zinc-800">
-                                            <img src={`https://i.pravatar.cc/100?img=${i + 10}`} alt="User" className="h-full w-full object-cover" />
-                                        </div>
-                                    ))}
-                                </div>
-                                <div>
-                                    <div className="flex items-center gap-1 mb-0.5">
-                                        {[1, 2, 3, 4, 5].map(i => <div key={i} className="w-4 h-4 text-amber-400 fill-amber-400">★</div>)}
-                                    </div>
-                                    <div className="text-sm font-medium text-zinc-500">
-                                        Trusted by <span className="text-white font-bold">500+</span> clinics
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
 
                         {/* Interactive Hero Graphic */}
