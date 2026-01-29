@@ -219,8 +219,8 @@ const Landing = () => {
                 </div>
             </section>
 
-            {/* CTA Section */}
-            <section className="py-32 relative overflow-hidden">
+            {/* Pricing / CTA Section */}
+            <section id="pricing" className="py-32 relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-b from-indigo-900/20 to-black z-0"></div>
                 <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 pointer-events-none mix-blend-overlay"></div>
 
